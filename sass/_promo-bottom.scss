@@ -1,0 +1,27 @@
+.promo-bottom{
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 234px;
+    }
+    &__title{
+       
+    }
+    &__text{
+        max-width: 575px;
+        margin-top: 50px;
+
+        text-align: center;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 150%;
+
+        color: #576463;
+    }
+    &__download-button{
+        margin-top: 70px;
+    }
+}

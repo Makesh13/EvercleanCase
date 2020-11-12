@@ -1,0 +1,27 @@
+.main-footer{
+    background-color: #8CCBC5;
+    margin-top: 110px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 63px;
+        padding-bottom: 63px;
+    }
+    
+    &__copyright{
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;  
+        color: #FFFFFF;
+
+        opacity: 0.5;    
+    }
+
+    &__navigation{
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,22 @@
+.about{    
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 170px;
+    }
+    &__image{
+        margin-right: -12%
+    }
+    &__text{
+        max-width: 650px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 150%;
+
+        color: #63B1AA;
+    }
+
+}

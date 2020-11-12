@@ -1,0 +1,132 @@
+
+@import "header";
+@import "promo";
+@import "about";
+@import "main-features";
+@import "secondary-features";
+@import "promo-bottom";
+@import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500;700&display=swap');
+
+*, :after, :before{
+    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    a{
+        text-decoration: none;
+    }
+}
+.container{
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.site-navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    &__item{
+        margin-right: 35px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__item_active{
+        .main-header__navigation & {
+            color: #8CCBC5;
+        }
+        .main-footer__navigation & {
+            color: #000000;
+        }
+    }
+    &__language-selector{
+
+        display: flex;
+        align-items: center;
+
+        .main-header__navigation & {
+            color: #8CCBC5;
+        }
+        .main-footer__navigation & {
+            color: #FFFFFF;
+        }
+    }
+    &__language{
+        margin-right: 10px;
+    }
+}
+
+.title-block{
+    display: flex;
+    justify-content: flex-start;
+    &__title{
+        margin-top: 20px;
+        margin-bottom: 0;
+
+        font-weight: 300;
+        font-size: 54.7368px;
+        line-height: 120%;
+        
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+
+        color: #8CCBC5;
+    }
+    &__image{
+        align-self: flex-start;
+        margin-left: -10px;
+    }
+}
+.download-button{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(93.1deg, #8CCBC5 0%, #7BBBCF 101.41%);
+        border-radius: 10px;
+
+        padding: 10px 30px;
+    }
+    &__image-column{
+        margin-right: 18.66px;
+    }
+    &__description{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        margin: 0;
+        color: #FFFFFF;
+    }
+}
+.arrow
+{
+    display: flex;
+    justify-content: center;
+    img{
+        flex: 1;
+    }
+
+    margin-bottom: 120px;
+}

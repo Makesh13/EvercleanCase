@@ -1,0 +1,40 @@
+.secondary-features{
+    padding-top:140px;
+    &__title{
+        text-align: center;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 150%;
+
+        color: #8CCBC5;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        padding-top: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__description{
+        max-width: 368px;
+        margin-top: 30px;
+        text-align: center;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: #576463;
+    }
+}
